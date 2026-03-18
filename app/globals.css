@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 27% 98%;
+  --foreground: 222 47% 11%;
+  --card: 0 0% 100%;
+  --border: 220 20% 88%;
+  --muted: 220 14% 96%;
+  --primary: 221 83% 53%;
+  --secondary: 262 83% 58%;
+  --accent: 190 95% 39%;
+}
+
+.dark {
+  --background: 224 46% 6%;
+  --foreground: 210 20% 96%;
+  --card: 224 39% 10%;
+  --border: 220 20% 20%;
+  --muted: 224 30% 12%;
+  --primary: 196 100% 60%;
+  --secondary: 265 83% 66%;
+  --accent: 160 84% 45%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  background-image: theme(backgroundImage.mesh);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.18;
+  background-image: theme(backgroundImage.grid);
+  background-size: 36px 36px;
+  mask-image: radial-gradient(circle at center, black, transparent 78%);
+}
+
+.glass {
+  @apply border border-white/10 bg-white/5 backdrop-blur-xl;
+}
+
+.light .glass,
+:root .glass {
+  @apply bg-white/60;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-sky-400 via-cyan-300 to-violet-400 bg-clip-text text-transparent;
+}
+
+.section-pad {
+  @apply px-4 sm:px-6 lg:px-8;
+}
+
+.container-shell {
+  @apply mx-auto w-full max-w-7xl;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
