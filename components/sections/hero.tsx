@@ -10,7 +10,7 @@ export function HeroSection() {
     <section id="hero" className="section-pad relative pt-28 sm:pt-32 lg:pt-36">
       <div className="container-shell grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
         <div>
-          <Badge className="mb-5">Premium Data & AI Architecture Portfolio</Badge>
+          <Badge className="mb-5">Data, Analytics & Machine Learning Portfolio</Badge>
           <h1 className="max-w-4xl text-5xl font-semibold tracking-tight sm:text-6xl lg:text-7xl">
             {basics.name.split(" ").slice(0, 1).join(" ")} <span className="text-gradient">{basics.name.split(" ").slice(1).join(" ")}</span>
           </h1>
