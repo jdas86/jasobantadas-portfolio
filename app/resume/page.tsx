@@ -3,10 +3,12 @@ import { resumeData } from "@/data/resume-data";
 export default function ResumePage() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-12 sm:px-6">
-      <div className="rounded-[2rem] border border-slate-200 bg-white p-8 text-slate-900 shadow-2xl dark:border-white/10 dark:bg-slate-900 dark:text-slate-100">
+      <div className="rounded-[2rem] border border-white/10 bg-slate-900 p-8 text-slate-100 shadow-2xl">
         <h1 className="text-3xl font-bold">{resumeData.basics.name}</h1>
         <p className="mt-2 text-sm">{resumeData.basics.title}</p>
-        <p className="mt-2 text-sm">{resumeData.basics.phone} • {resumeData.basics.email} • {resumeData.basics.location} • {resumeData.basics.website}</p>
+        <p className="mt-2 text-sm">
+          {resumeData.basics.phone} • {resumeData.basics.email} • {resumeData.basics.location} • {resumeData.basics.website}
+        </p>
 
         <section className="mt-8">
           <h2 className="text-xl font-semibold">About</h2>

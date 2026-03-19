@@ -1,7 +1,7 @@
 export const resumeData = {
   basics: {
     name: "JASOBANTA DAS",
-    title: "Solution Architect | AWS • Databricks • Snowflake • Machine Learning | Data & Analytics",
+    title: "Solution Architect Lead | AWS • Databricks • Snowflake • AI/ML | Data & Analytics",
     summary: [
       "With 17+ years of experience, I design and deliver enterprise-grade data platforms that help organisations unlock the true value of their data.",
       "From cloud-native Data Lakes and Lakehouse architectures to real-time streaming pipelines and GenAI solutions — I bridge the gap between complex technology and measurable business outcomes.",
@@ -19,19 +19,19 @@ export const resumeData = {
   experience: [
     {
       company: "TCS",
-      role: "Solution Architecture",
-      dates: "May 2021 - Till Date",
-      location: "United States of America",
+      role: "Solution Architecture Lead",
+      dates: "Not specified in source",
+      location: "Not specified in source",
       bullets: [
-        "I work as solution & technical architect at TCS, working with global enterprise clients across Healthcare, Banking, Insurance, and Finance — building the data foundations that power smarter decisions, faster.",
+        "I lead solution architecture at TCS, working with global enterprise clients across Healthcare, Banking, Insurance, and Finance — building the data foundations that power smarter decisions, faster.",
         "I own architectures end to end — from whiteboard to production.",
-        "I've led complex migrations (Teradata → AWS, Hive → Snowflake, DB2 → Snowflake), driven RFP/RFI pre-sales, and advised C-suite stakeholders on future-ready technology strategy."
+        "I've led enterprise data transformation across AWS, Hadoop, Hive, Snowflake, and Databricks — driving complex migrations, architecting modern Lakehouse platforms, and shaping resilient data engineering and governance strategy."
       ]
     }
   ],
   achievements: [
     "17+ years of experience designing and delivering enterprise-grade data platforms.",
-    "Led complex migrations: AWS, Databricks, Snowflake.",
+    "Led complex migrations: Teradata → AWS, Hive → Snowflake, DB2 → Snowflake.",
     "Improved platform efficiency through compute, storage, and workload redesign.",
     "Improved efficiency through query tuning, clustering strategy, warehouse right-sizing, and workload optimization.",
     "Established versioning, reproducibility, automation, governance, and lifecycle controls for enterprise ML operations.",
@@ -57,7 +57,7 @@ export const resumeData = {
     },
     {
       title: "Databricks Specialization",
-      stack: ["Databricks Lakehouse", "Governance", "Metadata", "Lineage", "Delta Live", "Unity Catlog"],
+      stack: ["Databricks Lakehouse", "Governance", "Metadata", "Lineage", "Batch", "Streaming"],
       bullets: [
         "Architected a unified Databricks platform for governed, scalable, and business-aligned analytics.",
         "Designed enterprise governance, metadata, lineage, and secure access architecture.",
@@ -130,7 +130,7 @@ export const resumeData = {
     "ENTERPRISE CLIENT & PRODUCT EXPERIENCE",
     "Cigna Healthcare",
     "Marriott International",
-    "GE",
+    "GE Healthcare",
     "Deutsche Bank",
     "Nationale-Nederlanden",
     "Goldman Sachs",

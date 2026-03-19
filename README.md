@@ -1,4 +1,4 @@
-# Jasobanta Portfolio
+# Jasobanta Portfolio 3D Upgrade
 
 ## Run locally
 
@@ -10,5 +10,7 @@ npm run dev
 Open `http://localhost:3000`
 
 ## Notes
-- Built with Next.js App Router + TypeScript + TailwindCSS + Framer Motion.
-- Resume content was mapped directly from the uploaded source document without inventing missing chronology.
+- Dark-only theme
+- Live animated code background
+- 3D-style hero and tilt cards
+- Updated Experience and Achievements sections
